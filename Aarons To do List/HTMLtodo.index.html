@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Collaborative To-Do List</h1>
+  
+  <!-- Form for task input -->
+  <form id="taskForm">
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <input type="date" id="dueDate">
+    <input type="submit" value="Add Task">
+  </form>
+  
+  <!-- Display area for tasks -->
+  <div id="taskDisplay">
+    <!-- Task details will be displayed here -->
+  </div>
+
+  <button onclick="showNextTask()">Next Task</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

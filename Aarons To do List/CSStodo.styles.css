@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#taskDisplay {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.task {
+  margin-bottom: 10px;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 5px;
+}
